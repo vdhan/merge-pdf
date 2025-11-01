@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     parser.add_argument('-v', '--version', action='version', version='PDF merger 1.0.0')
     parser.add_argument('pdfs', nargs='+', help='Đường dẫn file pdf cần gộp', metavar='file.pdf')
-    parser.add_argument('-o', default='xuat.pdf', help='Đường dẫn file pdf đã gộp', metavar='str')
+    parser.add_argument('-o', default='đã gộp.pdf', help='Đường dẫn file pdf đã gộp', metavar='str')
     if len(sys.argv) == 1:
         parser.print_help()
         sys.exit()
